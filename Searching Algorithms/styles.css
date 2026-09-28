@@ -1,0 +1,101 @@
+/* .viewport {
+  height: 300px;
+  width: auto;
+  flex-wrap: wrap;
+  min-width: 100px;
+  margin: 0px auto;
+  margin-bottom: 50px;
+} */
+
+.array-container {
+  height: auto;
+  max-width: 90%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Space between boxes */
+  border: 1px solid #fff;
+  background-color: #1a1a1a;
+}
+
+.box {
+  width: 50px; /* Set width for each box */
+  height: 50px; /* Set height for each box */
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 1px solid #fff;
+  text-align: center;
+  font-size: 16px;
+}
+
+.index-container {
+  width: 90%;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center; /* Match the array container's spacing */
+  align-items: center;
+  margin-top: -70px;
+  gap: 10px;
+}
+
+.index {
+  width: 50px; /* Match the size of the array elements */
+  text-align: center;
+  font-size: 12px;
+}
+
+.output {
+  display: flex;
+  line-height: 2;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 120px; /* Set a fixed height if necessary */
+  width: 90%; /* Make it span the width of its container */
+  background-color: #222; /* Optional: Add a background to make it stand out */
+  color: #fff; /* Optional: Text color */
+  font-size: 18px; /* Optional: Font size */
+  text-align: center; /* Ensure text is centered */
+  border: 1px solid #fff;
+}
+
+.search-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-key {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1.5px solid #fff;
+  background-color: #1a1a1a;
+  color: #fff;
+  outline: none;
+  width: 180px;
+  transition: border-color 0.3s ease;
+}
+
+.search-key:focus {
+  border-color: #aa50d1;
+}
+
+.search-button {
+  padding: 6px 15px;
+  font-size: 14px;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #222;
+}
